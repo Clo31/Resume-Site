@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project B — <Your Name></title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="container header-inner small">
+      <h1>Project B</h1>
+    </div>
+    <nav aria-label="Primary" class="primary-nav">
+      <ul role="list" class="container">
+        <li><a href="index.html">Resume</a></li>
+        <li><a href="project-a.html">Project A</a></li>
+        <li><a aria-current="page" href="project-b.html">Project B</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <article class="card">
+      <header>
+        <h2>Project B Title</h2>
+        <p class="meta">Course • Term • Team size</p>
+      </header>
+      <figure class="project-figure">
+        <img src="assets/project-b.jpg" alt="Project B illustration/screenshot" />
+        <figcaption>Caption briefly describing the image or result.</figcaption>
+      </figure>
+      <section>
+        <h3>Description</h3>
+        <p>Explain the challenge, technical stack, your specific contributions, and results. Include links if open source.</p>
+      </section>
+      <section>
+        <h3>Skills Learned</h3>
+        <ul class="skill-list" role="list">
+          <li><span class="pill">API Design</span></li>
+          <li><span class="pill">Responsive UI</span></li>
+          <li><span class="pill">Performance Tuning</span></li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><small>© <span id="year"></span> <Your Name></small></div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
