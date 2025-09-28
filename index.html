@@ -1,118 +1,59 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Resume website for <Your Name> — UCF student." />
-  <title><Your Name> — Resume</title>
-  <link rel="preload" href="styles.css" as="style" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
+<ul>
+<li>Supervised a team of 15 employees, providing guidance, motivation, and support in their daily tasks.</li>
+<li>Resolved day‑to‑day operational challenges promptly and efficiently, developing a proactive problem‑solving mindset.</li>
+</ul>
+</section>
+</article>
 
-  <header class="site-header" role="banner">
-    <div class="container header-inner">
-      <img src="assets/profile.jpg" alt="Professional headshot of <Your Name>" class="avatar" />
-      <div>
-        <h1><Your Name></h1>
-        <p class="subtitle">UCF Student • Aspiring <Role></p>
-        <ul class="contact" role="list">
-          <li><a href="mailto:nid@knights.ucf.edu">nid@knights.ucf.edu</a></li>
-          <li><a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a></li>
-          <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></li>
-        </ul>
-      </div>
-    </div>
-    <nav aria-label="Primary" class="primary-nav">
-      <ul role="list" class="container">
-        <li><a aria-current="page" href="index.html">Resume</a></li>
-        <li><a href="project-a.html">Project A</a></li>
-        <li><a href="project-b.html">Project B</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main id="main" tabindex="-1">
-    <section class="container grid two">
-      <article class="card">
-        <h2>Professional Objective</h2>
-        <p>Motivated <major/role> seeking <internship/full-time> opportunities to apply skills in <skills/areas> to build accessible, high‑quality software and solve real‑world problems.</p>
-      </article>
+<article class="card">
+<h2>Projects</h2>
+<ul class="projects">
+<li>
+<a href="project-a.html" class="project-link">
+<img src="assets/project-a.jpg" alt="Screenshot of Tiny Compiler project" />
+<div>
+<h3>Tiny Compiler (C; PL/0‑like)</h3>
+<p>Built a compiler with lexer, recursive‑descent parser, symbol table, and stack‑VM codegen.</p>
+</div>
+</a>
+</li>
+<li>
+<a href="project-b.html" class="project-link">
+<img src="assets/project-b.jpg" alt="Screenshot of Java Bookstore Management app" />
+<div>
+<h3>Java Bookstore Management App</h3>
+<p>Console app managing books (author, title, ISBN, price, sale) using OOP and ArrayList.</p>
+</div>
+</a>
+</li>
+</ul>
+</article>
 
-      <article class="card">
-        <h2>Education</h2>
-        <h3>University of Central Florida</h3>
-        <p><strong>B.S. in <Major></strong> — Expected <Month YYYY></p>
-        <ul>
-          <li>Relevant Coursework: <span class="pill">Data Structures</span> <span class="pill">Networks</span> <span class="pill">Operating Systems</span></li>
-          <li>GPA: <em>Optional</em></li>
-        </ul>
-      </article>
 
-      <article class="card">
-        <h2>Experience</h2>
-        <section>
-          <h3>Title — Company</h3>
-          <p class="meta">Location • MM YYYY – MM YYYY</p>
-          <ul>
-            <li>Quantified accomplishment using <strong>skill</strong> resulting in <strong>impact/metric</strong>.</li>
-            <li>Collaborated with X teammates; improved Y by Z%.</li>
-          </ul>
-        </section>
-      </article>
+<article class="card">
+<h2>Skills</h2>
+<ul class="skill-list" role="list">
+<li><span class="pill">Compiler Design</span></li>
+<li><span class="pill">Parsing (Recursive‑Descent)</span></li>
+<li><span class="pill">Symbol Tables</span></li>
+<li><span class="pill">Stack‑based VM / Codegen</span></li>
+<li><span class="pill">C Programming</span></li>
+<li><span class="pill">Data Structures</span></li>
+</ul>
+</article>
 
-      <article class="card">
-        <h2>Projects</h2>
-        <ul class="projects">
-          <li>
-            <a href="project-a.html" class="project-link">
-              <img src="assets/project-a.jpg" alt="Screenshot of Project A" />
-              <div>
-                <h3>Project A Title</h3>
-                <p>One‑sentence summary of what it does and why it matters.</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="project-b.html" class="project-link">
-              <img src="assets/project-b.jpg" alt="Screenshot of Project B" />
-              <div>
-                <h3>Project B Title</h3>
-                <p>One‑sentence summary highlighting your contribution.</p>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </article>
 
-      <article class="card">
-        <h2>Skills</h2>
-        <ul class="skill-list" role="list">
-          <li><span class="pill">Python</span></li>
-          <li><span class="pill">Java</span></li>
-          <li><span class="pill">HTML</span></li>
-          <li><span class="pill">CSS</span></li>
-          <li><span class="pill">Git</span></li>
-          <li><span class="pill">Linux</span></li>
-        </ul>
-      </article>
+</section>
+</main>
 
-      <article class="card">
-        <h2>Awards & Honors</h2>
-        <ul>
-          <li>Dean’s List — <span class="meta">Semester/Year</span></li>
-          <li>Scholarship/Competition — <span class="meta">Result</span></li>
-        </ul>
-      </article>
-    </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <small>© <span id="year"></span> <Your Name>. Built with semantic HTML, responsive CSS, and a11y best practices.</small>
-    </div>
-  </footer>
-  <script src="script.js" defer></script>
+<footer class="site-footer">
+<div class="container">
+<small>© <span id="year"></span> Christopher T. Lopez. Built with semantic HTML, responsive CSS, and a11y best practices.</small>
+</div>
+</footer>
+<script src="script.js" defer></script>
 </body>
 </html>
