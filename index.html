@@ -1,59 +1,133 @@
 <!doctype html>
-<ul>
-<li>Supervised a team of 15 employees, providing guidance, motivation, and support in their daily tasks.</li>
-<li>Resolved day‑to‑day operational challenges promptly and efficiently, developing a proactive problem‑solving mindset.</li>
-</ul>
-</section>
-</article>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Resume website for Christopher T. Lopez — UCF student." />
+  <title>Christopher T. Lopez — Resume</title>
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <img src="assets/profile.jpg" alt="Professional headshot of Christopher T. Lopez" class="avatar" />
+      <div>
+        <h1>Christopher T. Lopez</h1>
+        <p class="subtitle">UCF Student • Aspiring Software Engineer</p>
+        <ul class="contact" role="list">
+          <!-- Replace the UCF email below with your actual @knights.ucf.edu -->
+          <li><a href="mailto:nid@knights.ucf.edu">nid@knights.ucf.edu</a></li>
+          <li><a href="mailto:chrislopez0287604@gmail.com">chrislopez0287604@gmail.com</a></li>
+          <li><a href="tel:+19545051956">(954) 505-1956</a></li>
+          <li><a href="https://www.linkedin.com/in/christopher-lopez21" target="_blank" rel="noopener">LinkedIn</a></li>
+          <!-- Update this to your real GitHub profile URL -->
+          <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <nav aria-label="Primary" class="primary-nav">
+      <ul role="list" class="container">
+        <li><a aria-current="page" href="index.html">Resume</a></li>
+        <li><a href="project-a.html">Tiny Compiler</a></li>
+        <li><a href="project-b.html">Java Bookstore App</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="container grid two">
+      <article class="card">
+        <h2>Professional Objective</h2>
+        <p>Motivated Information Technology student seeking opportunities to apply skills in software engineering, problem solving, and responsive web development to build accessible, high-quality applications.</p>
+        <p><a class="button" href="resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a></p>
+      </article>
+
+      <article class="card">
+        <h2>Education</h2>
+        <h3>University of Central Florida</h3>
+        <p><strong>B.S. in Information Technology</strong> — Expected December 2025</p>
+        <ul>
+          <li>Relevant Coursework: <span class="pill">Computer Science I</span> <span class="pill">Computer Science II</span></li>
+          <li>Clubs: <span class="pill">SHPE UCF</span> <span class="pill">Hack UCF</span></li>
+        </ul>
+        <section>
+          <h3>Miami-Dade College — Doral, FL</h3>
+          <p><strong>Associate of Arts in Computer Science</strong> — January 2022</p>
+        </section>
+      </article>
+
+      <article class="card">
+        <h2>Experience</h2>
+
+        <section>
+          <h3>Data Analyst Intern — VytlOne</h3>
+          <p class="meta">September 2024 – Present</p>
+          <ul>
+            <li>Built Python + SQL automations to streamline recurring reporting and data-entry tasks across daily workflows.</li>
+            <li>Developed ETL scripts (pandas/SQL) to ingest, clean, validate, and aggregate data; scheduled jobs to run on a daily cadence.</li>
+            <li>Created reusable query templates and documentation to improve consistency and reduce manual steps.</li>
+            <li>Partnered with stakeholders to define requirements and QA outputs; added logging and error handling for reliability.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Assistant Manager — Planet Fitness</h3>
+          <p class="meta">June 2021 – May 2022</p>
+          <ul>
+            <li>Supervised a team of 15 employees, providing guidance, motivation, and support in daily operations.</li>
+            <li>Resolved day-to-day operational challenges promptly and efficiently, developing a proactive problem-solving mindset.</li>
+          </ul>
+        </section>
+      </article>
 
 
-<article class="card">
-<h2>Projects</h2>
-<ul class="projects">
-<li>
-<a href="project-a.html" class="project-link">
-<img src="assets/project-a.jpg" alt="Screenshot of Tiny Compiler project" />
-<div>
-<h3>Tiny Compiler (C; PL/0‑like)</h3>
-<p>Built a compiler with lexer, recursive‑descent parser, symbol table, and stack‑VM codegen.</p>
-</div>
-</a>
-</li>
-<li>
-<a href="project-b.html" class="project-link">
-<img src="assets/project-b.jpg" alt="Screenshot of Java Bookstore Management app" />
-<div>
-<h3>Java Bookstore Management App</h3>
-<p>Console app managing books (author, title, ISBN, price, sale) using OOP and ArrayList.</p>
-</div>
-</a>
-</li>
-</ul>
-</article>
+      <article class="card">
+        <h2>Projects</h2>
+        <ul class="projects">
+          <li>
+            <a href="project-a.html" class="project-link">
+              <img src="assets/project-a.jpg" alt="Screenshot illustrating the tiny compiler project" />
+              <div>
+                <h3>Tiny Compiler (C; PL/0-like)</h3>
+                <p>Compiler with lexer, recursive-descent parser, symbol table, and stack-VM code generation.</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="project-b.html" class="project-link">
+              <img src="assets/project-b.jpg" alt="Screenshot of the Java Bookstore Management console application" />
+              <div>
+                <h3>Java Bookstore Management App</h3>
+                <p>Console app managing books using OOP, ArrayList collections, and input handling.</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </article>
 
+      <article class="card">
+        <h2>Skills</h2>
+        <ul class="skill-list" role="list">
+          <li><span class="pill">Java</span></li>
+          <li><span class="pill">C#</span></li>
+          <li><span class="pill">C</span></li>
+          <li><span class="pill">Object-Oriented Programming</span></li>
+          <li><span class="pill">Git / Azure DevOps</span></li>
+          <li><span class="pill">Leadership</span></li>
+          <li><span class="pill">Spanish (Intermediate)</span></li>
+        </ul>
+      </article>
+    </section>
+  </main>
 
-<article class="card">
-<h2>Skills</h2>
-<ul class="skill-list" role="list">
-<li><span class="pill">Compiler Design</span></li>
-<li><span class="pill">Parsing (Recursive‑Descent)</span></li>
-<li><span class="pill">Symbol Tables</span></li>
-<li><span class="pill">Stack‑based VM / Codegen</span></li>
-<li><span class="pill">C Programming</span></li>
-<li><span class="pill">Data Structures</span></li>
-</ul>
-</article>
-
-
-</section>
-</main>
-
-
-<footer class="site-footer">
-<div class="container">
-<small>© <span id="year"></span> Christopher T. Lopez. Built with semantic HTML, responsive CSS, and a11y best practices.</small>
-</div>
-</footer>
-<script src="script.js" defer></script>
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Christopher T. Lopez. Built with semantic HTML, responsive CSS, and a11y best practices.</small>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
